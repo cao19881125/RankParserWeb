@@ -49,7 +49,7 @@ $(document).ready(function() {
     }
 
     function refresh_data() {
-        send_request('http://127.0.0.1:8080/rank_data',"GET",null,handle_response_data)
+        send_request('/RankParserWeb/WOWRankParser/rank_data',"GET",null,handle_response_data)
     }
 
     function refresh_table() {
