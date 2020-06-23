@@ -9,6 +9,7 @@ function fill_table(data,tablename){
             per_data_array.push(trdata.name)
             per_data_array.push(trdata.score)
             per_data_array.push(trdata.rank)
+            per_data_array.push(trdata.serverRank)
             //per_data_array.push(trdata.url)
             per_data_array.push("<a class=\"text-primary\" href=\"" + trdata.url + "\">查看</a>")
             result_array.push(per_data_array)

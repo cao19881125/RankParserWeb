@@ -49,7 +49,8 @@ $(document).ready(function() {
     }
 
     function refresh_data() {
-        send_request('/RankParserWeb/WOWRankParser/rank_data',"GET",null,handle_response_data)
+        //send_request('/RankParserWeb/WOWRankParser/rank_data',"GET",null,handle_response_data)
+        send_request('http://aliyun:801/RankParserWeb/WOWRankParser/rank_data',"GET",null,handle_response_data)
     }
 
     function refresh_table() {
